@@ -18,5 +18,5 @@ Unity project of my master's thesis about a Utility AI for turn-based combat sys
 - Preparation time of an ability
 - i.a.
 
-**Video**
+**Video:**
 [Utility AI for Turn-based Combat Systems (Master's thesis)](https://youtu.be/vC5f7ZzXhds) 
