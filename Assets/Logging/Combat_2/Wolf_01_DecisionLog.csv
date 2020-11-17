@@ -1,0 +1,583 @@
+Participant: Wolf_01
+Actions: 9;
+1. Action:;Interrupt (CAction)
+;1.1. Consideration:; PreparationTime
+;1.2. Consideration:; OwnHealth
+;1.3. Consideration:; LineOfSight
+;1.4. Consideration:; GaugeProgress
+;1.5. Consideration:; DistanceTo
+
+2. Action:;Move (CAction)
+;2.1. Consideration:; DistanceTo
+
+3. Action:;SingleTargetHeal (CAction)
+;3.1. Consideration:; DistanceTo
+;3.2. Consideration:; TargetHealth
+;3.3. Consideration:; AbilityScore
+
+4. Action:;Hide (CAction)
+;4.1. Consideration:; Cooldown
+;4.2. Consideration:; EntitiesInRadius
+;4.3. Consideration:; OwnHealth
+;4.4. Consideration:; TargetedBy
+;4.5. Consideration:; GaugeProgress
+
+5. Action:;Protect (CAction)
+;5.1. Consideration:; TargetHealth
+;5.2. Consideration:; Cooldown
+;5.3. Consideration:; OwnHealth
+
+6. Action:;DefendSelf (CAction)
+;6.1. Consideration:; Cooldown
+;6.2. Consideration:; EntitiesInRadius
+;6.3. Consideration:; OwnHealth
+
+7. Action:;TryToAvoidAoe (CAction)
+;7.1. Consideration:; OwnHealth
+;7.2. Consideration:; LineOfSight
+;7.3. Consideration:; AffectedArea
+;7.4. Consideration:; TargetedBy
+
+8. Action:;SingleTargetAttack (CAction)
+;8.1. Consideration:; TargetDamageReduction
+;8.2. Consideration:; LineOfSight
+;8.3. Consideration:; OwnHealth
+;8.4. Consideration:; OwnResource
+;8.5. Consideration:; DistanceTo
+;8.6. Consideration:; TargetHealth
+;8.7. Consideration:; AbilityScore
+
+9. Action:;AreaOfEffectBuff (CAction)
+;9.1. Consideration:; StatChangeValue
+;9.2. Consideration:; OwnResource
+;9.3. Consideration:; EntitiesInRadius
+;9.4. Consideration:; OwnHealth
+
+
+Decision Making of Participant "Wolf_01" started;Gauge Position: 398.1929;;Time: 14.07.2020 18:16:13
+Score-Calculation of Action: Interrupt;-> Wolf_01;using;"Critical Attack";on;Flamma.
+PreparationTime:;Consideration Score:; 0.9973021; PreparationTime: 0; Input: 0; ResponseCurve: 0.9973021;
+OwnHealth:;Consideration Score:; 0.9017986; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9017986;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+GaugeProgress:;Consideration Score:; 0.03764791; targetGaugePosition: 543.9988; Input: 0.5439988; ResponseCurve: 0.03764791;
+DistanceTo:;Consideration Score:; 0.9931249; distance: 6.515904; Input: 0.0757952; ResponseCurve: 0.9931249;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Interrupt;-> Wolf_01;using;"Critical Attack";on;Aqua.
+PreparationTime:;Consideration Score:; 0.9973021; PreparationTime: 0; Input: 0; ResponseCurve: 0.9973021;
+OwnHealth:;Consideration Score:; 0.9017986; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9017986;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+GaugeProgress:;Consideration Score:; 0.5220988; targetGaugePosition: 686.2239; Input: 0.6862239; ResponseCurve: 0.5220988;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 27.33643; Input: 1; ResponseCurve: 0.5100032;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Interrupt;-> Wolf_01;using;"Critical Attack";on;Terra.
+PreparationTime:;Consideration Score:; 0.9973021; PreparationTime: 0; Input: 0; ResponseCurve: 0.9973021;
+OwnHealth:;Consideration Score:; 0.9017986; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9017986;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+GaugeProgress:;Consideration Score:; 0.03096833; targetGaugePosition: 536.4799; Input: 0.5364799; ResponseCurve: 0.03096833;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 36.28017; Input: 1; ResponseCurve: 0.5100032;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Interrupt;-> Wolf_01;using;"Critical Attack";on;Aura.
+PreparationTime:;Consideration Score:; 0.9973021; PreparationTime: 0; Input: 0; ResponseCurve: 0.9973021;
+OwnHealth:;Consideration Score:; 0.9017986; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9017986;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+GaugeProgress:;Consideration Score:; 0.9951845; targetGaugePosition: 806.602; Input: 0.806602; ResponseCurve: 0.9951845;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 35.19462; Input: 1; ResponseCurve: 0.5100032;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_01.
+DistanceTo:;Consideration Score:; 0.1186237; distance: 26.58069; Input: 0.8290344; ResponseCurve: 0.1186237;
+Action Score (Compensation: "None"):;0.1186237
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_03.
+DistanceTo:;Consideration Score:; 0.07896902; distance: 27.59707; Input: 0.8798535; ResponseCurve: 0.07896902;
+Action Score (Compensation: "None"):;0.07896902
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_04.
+DistanceTo:;Consideration Score:; 0; distance: 40.98325; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_05.
+DistanceTo:;Consideration Score:; 0; distance: 7.187559; Input: 0; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_06.
+DistanceTo:;Consideration Score:; 0.2640957; distance: 22.56531; Input: 0.6282653; ResponseCurve: 0.2640957;
+Action Score (Compensation: "None"):;0.2640957
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_07.
+DistanceTo:;Consideration Score:; 0.01927103; distance: 29.32385; Input: 0.9661924; ResponseCurve: 0.01927103;
+Action Score (Compensation: "None"):;0.01927103
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_08.
+DistanceTo:;Consideration Score:; 0.182528; distance: 24.98426; Input: 0.7492129; ResponseCurve: 0.182528;
+Action Score (Compensation: "None"):;0.182528
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_09.
+DistanceTo:;Consideration Score:; 0; distance: 40.99642; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_10.
+DistanceTo:;Consideration Score:; 0; distance: 5.688146; Input: 0; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_11.
+DistanceTo:;Consideration Score:; 0.2657099; distance: 17.49754; Input: 0.3748771; ResponseCurve: 0.2657099;
+Action Score (Compensation: "None"):;0.2657099
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_13.
+DistanceTo:;Consideration Score:; 0.2159688; distance: 15.90263; Input: 0.2951313; ResponseCurve: 0.2159688;
+Action Score (Compensation: "None"):;0.2159688
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_14.
+DistanceTo:;Consideration Score:; 0; distance: 34.47216; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_17.
+DistanceTo:;Consideration Score:; 0.2161428; distance: 24.09253; Input: 0.7046267; ResponseCurve: 0.2161428;
+Action Score (Compensation: "None"):;0.2161428
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_18.
+DistanceTo:;Consideration Score:; 0.02523158; distance: 10.86638; Input: 0.04331918; ResponseCurve: 0.02523158;
+Action Score (Compensation: "None"):;0.02523158
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_20.
+DistanceTo:;Consideration Score:; 0; distance: 34.136; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_23.
+DistanceTo:;Consideration Score:; 0.05952124; distance: 28.12392; Input: 0.9061959; ResponseCurve: 0.05952124;
+Action Score (Compensation: "None"):;0.05952124
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_24.
+DistanceTo:;Consideration Score:; 0.2574799; distance: 22.81089; Input: 0.6405445; ResponseCurve: 0.2574799;
+Action Score (Compensation: "None"):;0.2574799
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_25.
+DistanceTo:;Consideration Score:; 0.2656463; distance: 22.50496; Input: 0.6252478; ResponseCurve: 0.2656463;
+Action Score (Compensation: "None"):;0.2656463
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_26.
+DistanceTo:;Consideration Score:; 0.1656032; distance: 25.41208; Input: 0.7706038; ResponseCurve: 0.1656032;
+Action Score (Compensation: "None"):;0.1656032
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_27.
+DistanceTo:;Consideration Score:; 0.1301072; distance: 26.29441; Input: 0.8147203; ResponseCurve: 0.1301072;
+Action Score (Compensation: "None"):;0.1301072
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_28.
+DistanceTo:;Consideration Score:; 0.1946012; distance: 15.32774; Input: 0.2663872; ResponseCurve: 0.1946012;
+Action Score (Compensation: "None"):;0.1946012
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_29.
+DistanceTo:;Consideration Score:; 0.1489102; distance: 14.17212; Input: 0.208606; ResponseCurve: 0.1489102;
+Action Score (Compensation: "None"):;0.1489102
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_30.
+DistanceTo:;Consideration Score:; 0.2392123; distance: 16.58273; Input: 0.3291367; ResponseCurve: 0.2392123;
+Action Score (Compensation: "None"):;0.2392123
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_31.
+DistanceTo:;Consideration Score:; 0.1056721; distance: 26.90669; Input: 0.8453347; ResponseCurve: 0.1056721;
+Action Score (Compensation: "None"):;0.1056721
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_32.
+DistanceTo:;Consideration Score:; 0.2986941; distance: 19.78832; Input: 0.4894158; ResponseCurve: 0.2986941;
+Action Score (Compensation: "None"):;0.2986941
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_33.
+DistanceTo:;Consideration Score:; 0.2989421; distance: 20.0045; Input: 0.5002249; ResponseCurve: 0.2989421;
+Action Score (Compensation: "None"):;0.2989421
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_34.
+DistanceTo:;Consideration Score:; 0.06725666; distance: 27.9113; Input: 0.895565; ResponseCurve: 0.06725666;
+Action Score (Compensation: "None"):;0.06725666
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_35.
+DistanceTo:;Consideration Score:; 0.09953001; distance: 12.93704; Input: 0.1468522; ResponseCurve: 0.09953001;
+Action Score (Compensation: "None"):;0.09953001
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_36.
+DistanceTo:;Consideration Score:; 0; distance: 31.60891; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_37.
+DistanceTo:;Consideration Score:; 0; distance: 33.54049; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_38.
+DistanceTo:;Consideration Score:; 0; distance: 9.217457; Input: 0; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_39.
+DistanceTo:;Consideration Score:; 0.29572; distance: 20.76414; Input: 0.5382069; ResponseCurve: 0.29572;
+Action Score (Compensation: "None"):;0.29572
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_40.
+DistanceTo:;Consideration Score:; 0; distance: 31.71352; Input: 1; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_41.
+DistanceTo:;Consideration Score:; 0.2851735; distance: 21.59023; Input: 0.5795118; ResponseCurve: 0.2851735;
+Action Score (Compensation: "None"):;0.2851735
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_42.
+DistanceTo:;Consideration Score:; 0.09316147; distance: 27.2264; Input: 0.8613201; ResponseCurve: 0.09316147;
+Action Score (Compensation: "None"):;0.09316147
+
+Score-Calculation of Action: Move;-> Wolf_01;using;"Move";on;Spawnpoint_43.
+DistanceTo:;Consideration Score:; 0; distance: 8.434773; Input: 0; ResponseCurve: -0.0005228619;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetHeal;-> Wolf_01;using;"Licking Wounds";on;Wolf_01.
+DistanceTo:;Consideration Score:; 0.9959347; distance: 0; Input: 0; ResponseCurve: 0.9959347;
+TargetHealth:;Consideration Score:; 0; TargetHealth (%): 1; Input: 1; ResponseCurve: 0;
+AbilityScore:;Consideration Score:; 0.7405465; AbilityScore: 6; Input: 0.6; ResponseCurve: 0.7405465;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: Hide;-> Wolf_01;using;"Hide";on;Flamma.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.7; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.7;
+OwnHealth:;Consideration Score:; 0.001501182; ownHealth (%): 1; Input: 1; ResponseCurve: 0.001501182;
+TargetedBy:;Consideration Score:; 0.8; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0.8;
+GaugeProgress:;Consideration Score:; 0.9762095; targetGaugePosition: 543.9988; Input: 0.5439988; ResponseCurve: 0.9762095;
+Action Score (Compensation: "None"):;0.0008206623
+
+Score-Calculation of Action: Hide;-> Wolf_01;using;"Hide";on;Aqua.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.7; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.7;
+OwnHealth:;Consideration Score:; 0.001501182; ownHealth (%): 1; Input: 1; ResponseCurve: 0.001501182;
+TargetedBy:;Consideration Score:; 0.8; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0.8;
+GaugeProgress:;Consideration Score:; 0.7039768; targetGaugePosition: 686.2239; Input: 0.6862239; ResponseCurve: 0.7039768;
+Action Score (Compensation: "None"):;0.0005918065
+
+Score-Calculation of Action: Hide;-> Wolf_01;using;"Hide";on;Terra.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.7; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.7;
+OwnHealth:;Consideration Score:; 0.001501182; ownHealth (%): 1; Input: 1; ResponseCurve: 0.001501182;
+TargetedBy:;Consideration Score:; 0.8; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0.8;
+GaugeProgress:;Consideration Score:; 0.9830599; targetGaugePosition: 536.4799; Input: 0.5364799; ResponseCurve: 0.9830599;
+Action Score (Compensation: "None"):;0.0008264212
+
+Score-Calculation of Action: Hide;-> Wolf_01;using;"Hide";on;Aura.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.7; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.7;
+OwnHealth:;Consideration Score:; 0.001501182; ownHealth (%): 1; Input: 1; ResponseCurve: 0.001501182;
+TargetedBy:;Consideration Score:; 0.8; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0.8;
+GaugeProgress:;Consideration Score:; 0.4954164; targetGaugePosition: 806.602; Input: 0.806602; ResponseCurve: 0.4954164;
+Action Score (Compensation: "None"):;0.0004164778
+
+Score-Calculation of Action: Protect;-> Wolf_01;using;"Protect";on;Wolf_01.
+TargetHealth:;Consideration Score:; 0.07811242; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.07811242;
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+OwnHealth:;Consideration Score:; 0.9608343; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9608343;
+Action Score (Compensation: "None"):;0.07505309
+
+Score-Calculation of Action: Protect;-> Wolf_01;using;"Protect Ally";on;Wolf_02.
+TargetHealth:;Consideration Score:; 0.07811242; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.07811242;
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+OwnHealth:;Consideration Score:; 0.9608343; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9608343;
+Action Score (Compensation: "None"):;0.07505309
+
+Score-Calculation of Action: Protect;-> Wolf_01;using;"Protect Ally";on;Bear_03.
+TargetHealth:;Consideration Score:; 0.07811242; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.07811242;
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+OwnHealth:;Consideration Score:; 0.9608343; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9608343;
+Action Score (Compensation: "None"):;0.07505309
+
+Score-Calculation of Action: DefendSelf;-> Wolf_01;using;"Protect";on;Wolf_01.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.4; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.4;
+OwnHealth:;Consideration Score:; 0.26825; ownHealth (%): 1; Input: 1; ResponseCurve: 0.26825;
+Action Score (Compensation: "None"):;0.1073
+
+Score-Calculation of Action: DefendSelf;-> Wolf_01;using;"Protect Ally";on;Wolf_02.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.4; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.4;
+OwnHealth:;Consideration Score:; 0.26825; ownHealth (%): 1; Input: 1; ResponseCurve: 0.26825;
+Action Score (Compensation: "None"):;0.1073
+
+Score-Calculation of Action: DefendSelf;-> Wolf_01;using;"Protect Ally";on;Bear_03.
+Cooldown:;Consideration Score:; 1; hasUsedAbilityRecently: False; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.4; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.4;
+OwnHealth:;Consideration Score:; 0.26825; ownHealth (%): 1; Input: 1; ResponseCurve: 0.26825;
+Action Score (Compensation: "None"):;0.1073
+
+Score-Calculation of Action: TryToAvoidAoe;-> Wolf_01;using;"Hide";on;Flamma.
+OwnHealth:;Consideration Score:; 0.1053543; ownHealth (%): 1; Input: 1; ResponseCurve: 0.1053543;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+AffectedArea:;Consideration Score:; 0; isInAffectedArea: False; Input: 0; ResponseCurve: 0;
+TargetedBy:;Consideration Score:; 0; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: TryToAvoidAoe;-> Wolf_01;using;"Hide";on;Aqua.
+OwnHealth:;Consideration Score:; 0.1053543; ownHealth (%): 1; Input: 1; ResponseCurve: 0.1053543;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+AffectedArea:;Consideration Score:; 0; isInAffectedArea: False; Input: 0; ResponseCurve: 0;
+TargetedBy:;Consideration Score:; 0; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: TryToAvoidAoe;-> Wolf_01;using;"Hide";on;Terra.
+OwnHealth:;Consideration Score:; 0.1053543; ownHealth (%): 1; Input: 1; ResponseCurve: 0.1053543;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+AffectedArea:;Consideration Score:; 0; isInAffectedArea: False; Input: 0; ResponseCurve: 0;
+TargetedBy:;Consideration Score:; 0; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: TryToAvoidAoe;-> Wolf_01;using;"Hide";on;Aura.
+OwnHealth:;Consideration Score:; 0.1053543; ownHealth (%): 1; Input: 1; ResponseCurve: 0.1053543;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+AffectedArea:;Consideration Score:; 0; isInAffectedArea: False; Input: 0; ResponseCurve: 0;
+TargetedBy:;Consideration Score:; 0; isTargetOfEnemy: False; Input: 0; ResponseCurve: 0;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Combo Attack";on;Flamma.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.9931249; distance: 6.515904; Input: 0.0757952; ResponseCurve: 0.9931249;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Combo Attack";on;Aqua.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 27.33643; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Combo Attack";on;Terra.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 36.28017; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Combo Attack";on;Aura.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 35.19462; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8520548; TargetHealth (%): 0.739726; Input: 0.739726; ResponseCurve: 0.8520548;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Critical Attack";on;Flamma.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.9931249; distance: 6.515904; Input: 0.0757952; ResponseCurve: 0.9931249;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Critical Attack";on;Aqua.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 27.33643; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Critical Attack";on;Terra.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 36.28017; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Critical Attack";on;Aura.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 35.19462; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8520548; TargetHealth (%): 0.739726; Input: 0.739726; ResponseCurve: 0.8520548;
+AbilityScore:;Consideration Score:; 0.7; AbilityScore: 5; Input: 0.5; ResponseCurve: 0.7;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Bite";on;Flamma.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.9931249; distance: 6.515904; Input: 0.0757952; ResponseCurve: 0.9931249;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Bite";on;Aqua.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 27.33643; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Bite";on;Terra.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 36.28017; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Bite";on;Aura.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 35.19462; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8520548; TargetHealth (%): 0.739726; Input: 0.739726; ResponseCurve: 0.8520548;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Tear apart";on;Flamma.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.9931249; distance: 6.515904; Input: 0.0757952; ResponseCurve: 0.9931249;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Tear apart";on;Aqua.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 27.33643; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Tear apart";on;Terra.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 36.28017; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8; TargetHealth (%): 1; Input: 1; ResponseCurve: 0.8;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: SingleTargetAttack;-> Wolf_01;using;"Tear apart";on;Aura.
+TargetDamageReduction:;Consideration Score:; 0.9933072; damageReductionInPercent: 0; Input: 0; ResponseCurve: 0.9933072;
+LineOfSight:;Consideration Score:; 0; isInLineOfSight: False; Input: 0; ResponseCurve: 0;
+OwnHealth:;Consideration Score:; 0.9931068; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9931068;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+DistanceTo:;Consideration Score:; 0.5100032; distance: 35.19462; Input: 1; ResponseCurve: 0.5100032;
+TargetHealth:;Consideration Score:; 0.8520548; TargetHealth (%): 0.739726; Input: 0.739726; ResponseCurve: 0.8520548;
+AbilityScore:;Consideration Score:; 0.8247665; AbilityScore: 8; Input: 0.8; ResponseCurve: 0.8247665;
+Action Score (Compensation: "None"):;0
+
+Score-Calculation of Action: AreaOfEffectBuff;-> Wolf_01;using;"Howling";on;Wolf_01.
+StatChangeValue:;Consideration Score:; 0; statChangeValue: 3; Input: 0; ResponseCurve: -Infinity;
+OwnResource:;Consideration Score:; 1; ownResource (%): 1; Input: 1; ResponseCurve: 1;
+EntitiesInRadius:;Consideration Score:; 0.6; EntitiesInRadius: 1; Input: 0; ResponseCurve: 0.6;
+OwnHealth:;Consideration Score:; 0.9765006; ownHealth (%): 1; Input: 1; ResponseCurve: 0.9765006;
+Action Score (Compensation: "None"):;0
+
+Final List of Actionscores of Wolf_01:
+;Actionscore;Manipulation;Result Score;Ability Name; Target
+; 0.2989421;0;0.2989421;Move;Spawnpoint_33
+; 0.2986941;0;0.2986941;Move;Spawnpoint_32
+; 0.29572;0;0.29572;Move;Spawnpoint_39
+; 0.2851735;0;0.2851735;Move;Spawnpoint_41
+; 0.2657099;0;0.2657099;Move;Spawnpoint_11
+; 0.2656463;0;0.2656463;Move;Spawnpoint_25
+; 0.2640957;0;0.2640957;Move;Spawnpoint_06
+; 0.2574799;0;0.2574799;Move;Spawnpoint_24
+; 0.2392123;0;0.2392123;Move;Spawnpoint_30
+; 0.2161428;0;0.2161428;Move;Spawnpoint_17
+; 0.2159688;0;0.2159688;Move;Spawnpoint_13
+; 0.1946012;0;0.1946012;Move;Spawnpoint_28
+; 0.182528;0;0.182528;Move;Spawnpoint_08
+; 0.1656032;0;0.1656032;Move;Spawnpoint_26
+; 0.1489102;0;0.1489102;Move;Spawnpoint_29
+; 0.1301072;0;0.1301072;Move;Spawnpoint_27
+; 0.1186237;0;0.1186237;Move;Spawnpoint_01
+; 0.1073;0;0.1073;Protect Ally;Bear_03
+; 0.1073;0;0.1073;Protect;Wolf_01
+; 0.1073;0;0.1073;Protect Ally;Wolf_02
+; 0.1056721;0;0.1056721;Move;Spawnpoint_31
+; 0.09953001;0;0.09953001;Move;Spawnpoint_35
+; 0.09316147;0;0.09316147;Move;Spawnpoint_42
+; 0.07896902;0;0.07896902;Move;Spawnpoint_03
+; 0.07505309;0;0.07505309;Protect;Wolf_01
+; 0.07505309;0;0.07505309;Protect Ally;Wolf_02
+; 0.07505309;0;0.07505309;Protect Ally;Bear_03
+; 0.06725666;0;0.06725666;Move;Spawnpoint_34
+; 0.05952124;0;0.05952124;Move;Spawnpoint_23
+; 0.02523158;0;0.02523158;Move;Spawnpoint_18
+; 0.01927103;0;0.01927103;Move;Spawnpoint_07
+; 0.0008264212;0;0.0008264212;Hide;Terra
+; 0.0008206623;0;0.0008206623;Hide;Flamma
+; 0.0005918065;0;0.0005918065;Hide;Aqua
+; 0.0004164778;0;0.0004164778;Hide;Aura
+; 0;0;0;Critical Attack;Aura
+; 0;0;0;Critical Attack;Flamma
+; 0;0;0;Critical Attack;Aqua
+; 0;0;0;Critical Attack;Terra
+; 0;0;0;Move;Spawnpoint_04
+; 0;0;0;Move;Spawnpoint_14
+; 0;0;0;Move;Spawnpoint_20
+; 0;0;0;Move;Spawnpoint_10
+; 0;0;0;Move;Spawnpoint_05
+; 0;0;0;Move;Spawnpoint_09
+; 0;0;0;Critical Attack;Flamma
+; 0;0;0;Critical Attack;Aqua
+; 0;0;0;Critical Attack;Terra
+; 0;0;0;Combo Attack;Aqua
+; 0;0;0;Combo Attack;Terra
+; 0;0;0;Combo Attack;Aura
+; 0;0;0;Critical Attack;Aura
+; 0;0;0;Bite;Aura
+; 0;0;0;Tear apart;Flamma
+; 0;0;0;Tear apart;Aqua
+; 0;0;0;Bite;Flamma
+; 0;0;0;Bite;Aqua
+; 0;0;0;Bite;Terra
+; 0;0;0;Combo Attack;Flamma
+; 0;0;0;Move;Spawnpoint_37
+; 0;0;0;Move;Spawnpoint_38
+; 0;0;0;Tear apart;Terra
+; 0;0;0;Howling;Wolf_01
+; 0;0;0;Tear apart;Aura
+; 0;0;0;Move;Spawnpoint_36
+; 0;0;0;Move;Spawnpoint_40
+; 0;0;0;Hide;Aqua
+; 0;0;0;Hide;Terra
+; 0;0;0;Hide;Aura
+; 0;0;0;Move;Spawnpoint_43
+; 0;0;0;Licking Wounds;Wolf_01
+; 0;0;0;Hide;Flamma
+
+Wolf_01 (used Heuristic: Best) decides for; 0.2989421;Move;Spawnpoint_33
+
+
+Decision Making of Participant "Wolf_01" ended; at 14.07.2020 18:16:13
+
+

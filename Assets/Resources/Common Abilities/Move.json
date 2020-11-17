@@ -1,0 +1,7 @@
+{
+	"m_abilityName": "Move",
+	"m_description": "Moves the character to another position.",
+	"m_targetType": 3,
+	"m_perparationTime": 0.0,
+	"m_range": 1.0
+}

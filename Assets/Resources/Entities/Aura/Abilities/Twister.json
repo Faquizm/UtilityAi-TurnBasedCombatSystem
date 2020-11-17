@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Twister",
+	"m_description": "Attacks an enemy with twister interrupting and dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 6.25,
+	"m_range": 10.0,
+
+	"m_baseDamage": 4.0,
+	"m_hits": 5,
+	"m_resourceType": 1,
+	"m_costs": 12,
+	"m_canInterrupt": true,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

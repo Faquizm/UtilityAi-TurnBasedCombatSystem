@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Shocking Strike",
+	"m_description": "Attacks with a strike creating a shockwave and dealing $AMT damage to an enemy and its nearby allies.",
+	"m_targetType": 0,
+	"m_preparationTime": 6.25,
+	"m_range": 4.0,
+
+	"m_baseDamage": 15.0,
+	"m_hits": 1,
+	"m_resourceType": 0,
+	"m_costs": 15,
+	"m_canInterrupt": true,
+	"m_hasAreaOfEffect": true,
+	"m_radius": 12.0
+}

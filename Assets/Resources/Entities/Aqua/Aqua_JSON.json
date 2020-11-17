@@ -1,0 +1,47 @@
+{
+	"m_index": 1,
+	"m_name": "Aqua",
+	"m_iconName": "Aqua_Icon",
+	
+	"m_entityFolderName": "Aqua",
+	"m_abilityTypes": [
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CHealAbility",
+		"CHealAbility",
+		"CStatAbility",
+		"CStatAbility",
+		"CStatAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility"
+	],
+
+	"m_jsonFileNames": [
+		"ComboAttackAqua",
+		"CriticalAttackAqua",
+		"WaterNeedles",
+		"Blizzard",
+		"HealingWater",
+		"HealingBubbles",
+		"Freezing",
+		"Hydration",
+		"Dehydration",
+		"Move",
+		"Protect",
+		"ProtectAlly",
+		"Hide"
+	],
+
+	"m_statWeights": {
+		"m_strength": 1.0,
+		"m_intelligence": 1.2,
+		"m_agility": 1.0,
+		"m_defense": 1.0,
+		"m_stamina": 1.2,
+		"m_speed": 1.0
+	}
+}

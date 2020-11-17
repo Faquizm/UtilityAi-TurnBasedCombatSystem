@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Tear apart",
+	"m_description": "Bites an enemy and doesn't let go dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 6,
+	"m_range": 2.0,
+
+	"m_baseDamage": 8.0,
+	"m_hits": 3,
+	"m_resourceType": 0,
+	"m_costs": 10,
+	"m_canInterrupt": false,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

@@ -1,0 +1,40 @@
+{
+	"m_name": "Wolf",
+	"m_iconName": "Wolf_Icon",
+
+	"m_entityFolderName": "Wolf",
+	"m_abilityTypes": [
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CHealAbility",
+		"CStatAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility"
+	],
+
+	"m_jsonFileNames": [
+		"ComboAttackWolf",
+		"CriticalAttackWolf",
+		"Bite",
+		"TearApart",
+		"LickingWounds",
+		"Howling",
+		"Move",
+		"Protect",
+		"ProtectAlly",
+		"Hide"
+	],
+
+	"m_statWeights": {
+		"m_strength": 1.0,
+		"m_intelligence": 1.0,
+		"m_agility": 1.2,
+		"m_defense": 1.0,
+		"m_stamina": 1.0,
+		"m_speed": 1.0
+	}
+}

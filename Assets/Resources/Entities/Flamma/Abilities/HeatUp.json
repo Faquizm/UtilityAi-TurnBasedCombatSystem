@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Heat up",
+	"m_description": "Heat rises up increasing the strength by $PER% for $SEC.",
+	"m_targetType": 2,
+	"m_preparationTime": 3.0,
+	"m_range": 2.0,
+
+	"m_stat": 0,
+	"m_percentage": 0.1,
+	"m_duration": 120,
+	"m_resourceType": 0,
+	"m_costs": 5,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

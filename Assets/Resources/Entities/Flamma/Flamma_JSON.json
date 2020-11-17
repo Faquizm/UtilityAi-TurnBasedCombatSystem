@@ -1,0 +1,41 @@
+{
+	"m_index": 0,
+	"m_name": "Flamma",
+	"m_iconName": "Flamma_Icon",
+
+	"m_entityFolderName": "Flamma",
+	"m_abilityTypes": [
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CStatAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility"
+	],
+
+	"m_jsonFileNames": [
+		"ComboAttackFlamma",
+		"CriticalAttackFlamma",
+		"FlameSlash",
+		"BurningStinger",
+		"Fireball",
+		"HeatUp",
+		"Move",
+		"Protect",
+		"ProtectAlly",
+		"Hide"
+	],
+
+	"m_statWeights": {
+		"m_strength": 1.2,
+		"m_intelligence": 1.0,
+		"m_agility": 1.2,
+		"m_defense": 1.0,
+		"m_stamina": 1.0,
+		"m_speed": 1.0
+	}
+}

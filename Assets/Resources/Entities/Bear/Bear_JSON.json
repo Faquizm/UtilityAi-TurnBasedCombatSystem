@@ -1,0 +1,36 @@
+{
+	"m_name": "Bear",
+	"m_iconName": "Bear_Icon",
+
+	"m_entityFolderName": "Bear",
+	"m_abilityTypes": [
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CStatAbility",
+		"CStatAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility"
+	],
+
+	"m_jsonFileNames": [
+		"ComboAttackBear",
+		"CriticalAttackBear",
+		"PawSwipe",
+		"ThickSkin",
+		"Growling",
+		"Move",
+		"Hide",
+		"Protect"
+	],
+
+	"m_statWeights": {
+		"m_strength": 1.2,
+		"m_intelligence": 1.0,
+		"m_agility": 1.0,
+		"m_defense": 1.2,
+		"m_stamina": 1.2,
+		"m_speed": 1.0
+	}
+}

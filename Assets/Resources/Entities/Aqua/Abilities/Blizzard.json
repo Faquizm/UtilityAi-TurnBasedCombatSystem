@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Blizzard",
+	"m_description": "Attacks an enemy with frozes rain drops falling from above dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 6.0,
+	"m_range": 10,
+
+	"m_baseDamage": 8.0,
+	"m_hits": 3,
+	"m_resourceType": 1,
+	"m_costs": 10,
+	"m_canInterrupt": false,
+	"m_hasAreaOfEffect": true,
+	"m_radius": 10.0
+}

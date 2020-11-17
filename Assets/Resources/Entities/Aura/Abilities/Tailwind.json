@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Tailwind",
+	"m_description": "Turns the wind to the advantages of an ally increasing their speed by $PER% for $SEC.",
+	"m_targetType": 1,
+	"m_preparationTime": 3.0,
+	"m_range": 10.0,
+
+	"m_stat": 5,
+	"m_percentage": 0.1,
+	"m_duration": 60,
+	"m_resourceType": 1,
+	"m_costs": 5,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

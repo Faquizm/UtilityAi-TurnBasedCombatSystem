@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Zero Gravity",
+	"m_description": "Manipulating the surrounding gravitity field causing all nearby allies to increase their agility by $PER% for $SEC.",
+	"m_targetType": 1,
+	"m_preparationTime": 5.0,
+	"m_range": 4.0,
+
+	"m_stat": 2,
+	"m_percentage": 0.3,
+	"m_duration": 90,
+	"m_resourceType": 1,
+	"m_costs": 10,
+	"m_hasAreaOfEffect": true,
+	"m_radius": 12.0
+}

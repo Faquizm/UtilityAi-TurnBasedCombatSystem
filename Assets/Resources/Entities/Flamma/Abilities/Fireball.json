@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Fireball",
+	"m_description": "Throws a fireball at an enemy dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 3.75,
+	"m_range": 15.0,
+
+	"m_baseDamage": 15.0,
+	"m_hits": 1,
+	"m_resourceType": 1,
+	"m_costs": 5,
+	"m_canInterrupt": false,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

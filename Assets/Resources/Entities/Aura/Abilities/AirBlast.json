@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Air Blast",
+	"m_description": "Attacks an enemy with an air blast dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 4.0,
+	"m_range": 5.0,
+
+	"m_baseDamage": 12.0,
+	"m_hits": 1,
+	"m_resourceType": 0,
+	"m_costs": 10,
+	"m_canInterrupt": true,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

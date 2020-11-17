@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Bite",
+	"m_description": "Bites an enemy dealing $AMT damage.",
+	"m_targetType": 0,
+	"m_preparationTime": 4.0,
+	"m_range": 2.0,
+
+	"m_baseDamage": 16.0,
+	"m_hits": 1,
+	"m_resourceType": 0,
+	"m_costs": 10,
+	"m_canInterrupt": false,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

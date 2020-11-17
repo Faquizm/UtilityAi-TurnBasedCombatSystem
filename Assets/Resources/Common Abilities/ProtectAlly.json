@@ -1,0 +1,10 @@
+{
+	"m_abilityName": "Protect Ally",
+	"m_description": "Rushes to an allied character to get the incoming damage. The damage is reduced by $PER%.",
+	"m_targetType": 1,
+	"m_perparationTime": 0.0,
+	"m_range": 1.0,
+	
+	"m_damageReductionBy": 0.5,
+	"m_duration": 10.0
+}

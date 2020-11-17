@@ -1,0 +1,43 @@
+{
+	"m_index": 3,
+	"m_name": "Aura",
+	"m_iconName": "Aura_Icon",
+
+	"m_entityFolderName": "Aura",
+	"m_abilityTypes": [
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CDamageAbility",
+		"CStatAbility",
+		"CStatAbility",
+		"CStatAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility",
+		"CDefenseAbility"
+	],
+
+	"m_jsonFileNames": [
+		"ComboAttackAura",
+		"CriticalAttackAura",
+		"AirBlast",
+		"Twister",
+		"Tailwind",
+		"ZeroGravity",
+		"Headwind",
+		"Move",
+		"Protect",
+		"ProtectAlly",
+		"Hide"
+	],
+
+	"m_statWeights": {
+		"m_strength": 1.0,
+		"m_intelligence": 1.0,
+		"m_agility": 1.2,
+		"m_defense": 1.0,
+		"m_stamina": 1.0,
+		"m_speed": 1.2
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"m_abilityName": "Healing Water",
+	"m_description": "Heals an ally by $AMT health points.",
+	"m_targetType": 1,
+	"m_preparationTime": 4.0,
+	"m_range": 10,
+
+	"m_baseHeal": 32.0,
+	"m_resourceType": 1,
+	"m_costs": 10,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

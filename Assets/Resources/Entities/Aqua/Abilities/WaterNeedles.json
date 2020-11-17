@@ -1,0 +1,15 @@
+{
+	"m_abilityName": "Water Needles",
+	"m_description": "Attacks an enemy with multiple needles made of water dealing $AMT damage per hit.",
+	"m_targetType": 0,
+	"m_preparationTime": 3.0,
+	"m_range": 10,
+
+	"m_baseDamage": 4.0,
+	"m_hits": 3,
+	"m_resourceType": 1,
+	"m_costs": 5,
+	"m_canInterrupt": false,
+	"m_hasAreaOfEffect": false,
+	"m_radius": 0.0
+}

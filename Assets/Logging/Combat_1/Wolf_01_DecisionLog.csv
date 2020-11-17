@@ -1,0 +1,56 @@
+Participant: Wolf_01
+Actions: 9;
+1. Action:;Protect (CAction)
+;1.1. Consideration:; TargetHealth
+;1.2. Consideration:; Cooldown
+;1.3. Consideration:; OwnHealth
+
+2. Action:;Hide (CAction)
+;2.1. Consideration:; Cooldown
+;2.2. Consideration:; EntitiesInRadius
+;2.3. Consideration:; OwnHealth
+;2.4. Consideration:; TargetedBy
+;2.5. Consideration:; GaugeProgress
+
+3. Action:;SingleTargetAttack (CAction)
+;3.1. Consideration:; TargetDamageReduction
+;3.2. Consideration:; LineOfSight
+;3.3. Consideration:; OwnHealth
+;3.4. Consideration:; OwnResource
+;3.5. Consideration:; DistanceTo
+;3.6. Consideration:; TargetHealth
+;3.7. Consideration:; AbilityScore
+
+4. Action:;SingleTargetHeal (CAction)
+;4.1. Consideration:; DistanceTo
+;4.2. Consideration:; TargetHealth
+;4.3. Consideration:; AbilityScore
+
+5. Action:;DefendSelf (CAction)
+;5.1. Consideration:; Cooldown
+;5.2. Consideration:; EntitiesInRadius
+;5.3. Consideration:; OwnHealth
+
+6. Action:;Move (CAction)
+;6.1. Consideration:; DistanceTo
+
+7. Action:;TryToAvoidAoe (CAction)
+;7.1. Consideration:; OwnHealth
+;7.2. Consideration:; LineOfSight
+;7.3. Consideration:; AffectedArea
+;7.4. Consideration:; TargetedBy
+
+8. Action:;AreaOfEffectBuff (CAction)
+;8.1. Consideration:; StatChangeValue
+;8.2. Consideration:; OwnResource
+;8.3. Consideration:; EntitiesInRadius
+;8.4. Consideration:; OwnHealth
+
+9. Action:;Interrupt (CAction)
+;9.1. Consideration:; OwnHealth
+;9.2. Consideration:; LineOfSight
+;9.3. Consideration:; GaugeProgress
+;9.4. Consideration:; DistanceTo
+;9.5. Consideration:; PreparationTime
+
+
